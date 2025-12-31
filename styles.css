@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    background: #000;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: chartreuse !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid chartreuse;
+}
+
+/* Home */
+.home-section {
+    height: 100vh;
+    background: url("img.jpg2.webp") center/cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.home-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.home-section p {
+    font-size: 1.2rem;
+}
+
+.home-section .input-group {
+    max-width: 400px;
+}
+
+/* About */
+.about-section {
+    padding: 80px 0;
+    background: linear-gradient(to right, #f8a5c2, #f3a683);
+}
+
+.about-section h2 {
+    font-weight: 700;
+}
+
+/* Product */
+.product-section {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.product-card {
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Contact */
+.contact-section {
+    padding: 80px 0;
+    background: #f1f1f1;
+}
+
+.contact-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
